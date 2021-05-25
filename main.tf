@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     organization = "thrillho"    
     workspaces {
-      name = "terraform-consul-vault-tutorial"
+      name = "learn-terraform-pipelines-k8s"
     }
   }
 required_providers {
